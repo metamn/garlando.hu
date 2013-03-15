@@ -1,0 +1,341 @@
+/*
+Theme Name: garlando
+Theme URI: http://clair.ro
+Description: an e-commerce / community theme for wordpress, grid & jquery based
+Author: cs
+Author URI: http://clair.ro
+Template: default
+Version: 0.1
+.
+General comments/License Statement if any.
+.
+*/
+
+
+/* color definitions
+
+- black: #222
+- bordo: #62000b
+- blue:  #244795
+- red:  #de2d27
+- gray-blue: #ccd4ec
+
+*/
+
+
+
+
+
+/* Startpage */
+
+
+#products {
+ margin: 2em 0;
+}
+
+#products a:hover {
+  text-decoration: none;
+  border-bottom: none;
+}
+.pretty-hover {
+    cursor: pointer;
+    cursor: hand;
+}
+
+a.download, a.download:hover {
+    background: #de2d27;
+    color: #f9f9f9;
+    font-size: larger;
+    padding: .2em .5em;
+}
+
+#product {
+  margin: 2em 0;
+}
+#product-image {
+  background: #F6F8FF;
+  padding: 1em;
+  border: 1px solid #eee;
+}
+#product-details {
+  border-bottom: 1px dotted #ccd4ec;
+}
+.product-title {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+.product-description{
+  font-style: italic;
+  color: #aaa;
+}
+.product-header {
+  margin-top: 2em;
+}
+
+.title-first_letter {
+  color: #de2d27;
+}
+
+.subcat-icons, .subcat-icons-patch {
+  width: 50px;
+  height: 50px;
+}
+.subcat-icons-patch {
+  float: right;
+  margin-right: .5em;
+}
+
+.product-body {
+ margin-top: 1em;
+ padding: 1em 0;
+
+}
+
+.subcategory-name {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+.subcategory-image {
+  padding: 1em 0;
+}
+.subcategory-post-title{
+  font-size: 1.2em;
+}
+
+
+ul.startpage {
+    list-style-type: none;
+}
+li.startpage-last {
+    margin-bottom: 1em;
+}
+
+
+/* blog frontpage */
+.post {
+  margin-bottom: 6em;
+}
+
+.post-title {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  background: #f8f8f8;
+}
+a.post-title:hover {
+  text-decoration: none;
+  border-bottom: none;
+}
+.postmetadata {
+  border-top: 1px solid #eee;
+  padding: 0.2em 0
+  background: #f8f8f8;
+  height: 1.5em;
+}
+.postmetadata-top, .entry {
+  margin-top: 1.5em;
+}
+
+
+/* post inside */
+.entry ol {
+  margin-left: 2.5em;
+}
+.navigation {
+  background: #f8f8f8;
+  margin: 2.5em 0;
+}
+#buy, #meta, #meta-2 {
+  margin: 2.5em 0;
+}
+#price p, #stock p {
+  font-size: 3em;
+  text-align: center;
+}
+
+.iconleft {
+  padding: 24px 0 24px 58px;
+  width: 48px;
+  height: 48px;
+}
+.icon-user {
+  background: url(/wp-content/themes/garlando/img/icons/user.png) no-repeat;
+}
+.icon-date {
+  background: url(/wp-content/themes/garlando/img/icons/calendar.png) no-repeat;
+}
+.icon-rss {
+  background: url(/wp-content/themes/garlando/img/icons/rss.png) no-repeat;
+}
+.icon-tags {
+  background: url(/wp-content/themes/garlando/img/icons/disc.png) no-repeat;
+}
+.icon-edit {
+  background: url(/wp-content/themes/garlando/img/icons/document_edit.png) no-repeat;
+}
+
+
+/* comments */
+textarea {
+  width: 660px;
+}
+
+/* blog images */
+.aligncenter, div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wp-caption {
+	border: 1px solid #ccc;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+}
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+
+
+
+
+/* blog sidebar */
+#sidebar {
+  background: #eee;
+  margin-bottom: -5000px;
+  padding-bottom: 5000px; /* sidebar full height */
+}
+#sidebar ul {
+  list-style-type: none;
+}
+li.widget {
+  margin: 0 0 5em 0;
+}
+.ui-widget-content a {
+  color: #244795;
+}
+
+
+#sidebar ul.sidebar-products {
+
+}
+#sidebar ul.sidebar-products  li {
+  font-size: small;
+  text-transform: uppercase;
+}
+#sidebar ul.sidebar-products-list {
+  list-style-type: square;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+#sidebar ul.sidebar-products-list li {
+  font-size: small;
+  text-transform: none;
+}
+.ui-accordion-content-active {
+  background: #f8f8f8;
+}
+
+
+
+
+/* footer */
+#footer {
+  z-index: 1; /* sidebar full height */
+  background: url(/wp-content/themes/garlando/img/background-post.png) repeat scroll;
+  border-top: 1px solid #eee;
+  margin-top: 2em;
+  padding: 0.2em 0;
+}
+
+
+
+/* header */
+#header {
+  padding-bottom: 4em;
+}
+
+#header a:hover, a.header {
+  text-decoration: none;
+  border: none;
+}
+
+img.logo {
+  width: 200px;
+  height: 52px;
+}
+
+.tagline {
+  margin-left: 60px;
+  color: #222;
+  position: absolute;
+  top: 75px;
+}
+
+ul.shortmenu {
+  margin: 0;
+}
+ul.shortmenu li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 1.8em;
+}
+ul.shortmenu li.page-item-2 {
+  margin-right: 0;
+  margin-left: 1.8em;
+}
+ul.shortmenu li.page-item-4, ul.shortmenu li.page-item-6 {
+  margin: 0 .9em;
+}
+.current_page_item a {
+  color: #222;
+  font-weight: bold;
+}
+
+input.searchform {
+  width: 19.5em;
+}
+
+
+/* overwrites */
+
+body {
+  background: #62000b url(/wp-content/themes/garlando/img/background.png) repeat;
+}
+
+.container {
+  margin-top: 2em;
+  padding: 1em 1em 0;
+  background: url(/wp-content/themes/garlando/img/background-post.png) repeat scroll;
+  overflow: hidden;  /*sidebar 100% height */
+}
+
+a {
+  color: #244795;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #244795;
+}
+
+
+/* general */
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+
